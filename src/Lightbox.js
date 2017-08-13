@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { css, StyleSheet } from 'aphrodite/no-important';
-import ScrollLock from 'react-scrolllock';
 
 import defaultTheme from './theme';
 import Arrow from './components/Arrow';
@@ -195,7 +194,6 @@ class Lightbox extends Component {
 				{this.renderThumbnails()}
 				{this.renderArrowPrev()}
 				{this.renderArrowNext()}
-				<ScrollLock />
 			</Container>
 		);
 	}

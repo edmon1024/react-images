@@ -3950,10 +3950,6 @@ var _react2 = _interopRequireDefault(_react);
 
 var _aphroditeNoImportant = require('aphrodite/no-important');
 
-var _reactScrolllock = require('react-scrolllock');
-
-var _reactScrolllock2 = _interopRequireDefault(_reactScrolllock);
-
 var _theme = require('./theme');
 
 var _theme2 = _interopRequireDefault(_theme);
@@ -4187,8 +4183,7 @@ var Lightbox = (function (_Component) {
 				),
 				this.renderThumbnails(),
 				this.renderArrowPrev(),
-				this.renderArrowNext(),
-				_react2['default'].createElement(_reactScrolllock2['default'], null)
+				this.renderArrowNext()
 			);
 		}
 	}, {
@@ -4348,4 +4343,4 @@ https://fb.me/react-unknown-prop is resolved
 <Swipeable onSwipedLeft={this.gotoNext} onSwipedRight={this.gotoPrev} />
 */
 
-},{"./components/Arrow":41,"./components/Container":42,"./components/Footer":43,"./components/Header":44,"./components/PaginatedThumbnails":46,"./components/Portal":48,"./theme":54,"./utils":58,"aphrodite/no-important":6,"prop-types":undefined,"react":undefined,"react-scrolllock":undefined}]},{},[]);
+},{"./components/Arrow":41,"./components/Container":42,"./components/Footer":43,"./components/Header":44,"./components/PaginatedThumbnails":46,"./components/Portal":48,"./theme":54,"./utils":58,"aphrodite/no-important":6,"prop-types":undefined,"react":undefined}]},{},[]);
