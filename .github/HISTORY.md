@@ -1,5 +1,56 @@
 # React-Images
 
+### v1.0.0 / 2019-06-05
+- v1 release
+
+### v0.5.19 / 2018-07-19
+- Fix babel lib output not transpiling
+
+### v0.5.18 / 2018-07-19
+- LightBox srcSet support for string and array #236 thanks to [lordoffreaks](https://github.com/lordoffreaks)
+- Upgrade react-transition-group to v2 #238 thanks to [filipecosta01](https://github.com/filipecosta01)
+- Add zindex to close button to bring it in front of spinner #225 thanks to [seanpascoe](https://github.com/seanpascoe)
+- Fix #240: Spinner consumes pointer events #241 thanks to [thepatrik](https://github.com/thepatrik)
+- Fix #216 Cannot read property 'complete' of undefined #217 thanks to [lkazberova](https://github.com/lkazberova)
+- Fix Lightbox srcSet prop type validation #209 thanks to [kripod](https://github.com/kripod)
+
+### v0.5.17 / 2018-02-07
+- fix for "srcSet" inconsistency #204 thanks to [kripod](https://github.com/kripod) and [wmertens](https://github.com/wmertens)
+- fix for preload bug when mounted with `isOpen` set to true thanks to [mkalygin](https://github.com/mkalygin)
+- removed `react-spinners` dependency which was bloating the bundle, and implemented a simple loading component, thanks [kripod](https://github.com/kripod)
+- support for conditional ScrollLock via new property `preventScroll` thanks to [Josh-a-e](https://github.com/Josh-a-e)
+
+### v0.5.16 / 2018-01-30
+- add preloadImage call to componentDidMount PR #200 thanks to [ilker0](https://github.com/ilker0)
+- Changes some docs to clarify that yarn is the preferred package manager for this project. Removes package-lock.json. PR #191 Thanks to [jorrit](https://github.com/jorrit)
+- Unmount the component tree before removing the portal node from DOM PR #180 thanks to  [pleunv](https://github.com/pleunv)
+- Fix react warnings by updating react-scrolllock version [jorrit](https://github.com/jorrit))
+
+### v0.5.15 / 2018-01-25
+- spinner functionality pull request #187 thanks to [mkalygin](https://github.com/mkalygin)
+
+### v0.5.13 / 2017-11-29
+- change srcset to srcSet to fix intermittent warning: Invalid DOM property `srcset`. Did you mean `srcSet`?
+
+### v0.5.12 / 2017-11-29
+-  Fix React warning issue #171 thanks to [kachkaev](https://github.com/kachkaev)
+
+### v0.5.10 / 2017-10-18
+- New build
+
+### v0.5.8 / 2017-10-06
+- Incorrect peer dependency in package.json file
+
+### v0.5.7 / 2017-10-04
+- Fix warnings for React 16.0.0 and update dependencies
+
+### v0.5.6 / 2017-09-20
+- Update: Let user pass in srcSet as prop in addition to srcset thanks to [smeijer](https://github.com/smeijer)
+- Fix: default arrow bg color is none
+- Fix: make content div, figure, image respond to theme props #127
+- Fix: caption extending and disabling backdropClosesModal click issue #156
+- Fix: alignment in safari issue #105
+
 ### v0.5.5 / 2017-07-28
 - Fix: let user override all possible properties with theme object thanks to [clintharris](https://github.com/clintharris)
 - Fix: clicking on image closes lightbox when backdropClosesModal is set to true #152
@@ -23,6 +74,8 @@
 * Feature: Added a thumbnail preview beneath the lightbox thanks to [GregoryPotdevin](https://github.com/GregoryPotdevin)
 * Feature: Re-implemented the layout using `flexbox`
 * Examples: Replaced local images with hot-linked Unsplash photographs
+
+* * *
 
 ### v0.4.11 / 2016-08-15
 * Feature: Pre-load the next image based on user intention, uses new prop `preloadNextImage`
